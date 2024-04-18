@@ -1,0 +1,59 @@
+.nav_card {
+    border: 0.125vmin solid var(--gray-6);
+}
+
+.nav_card:hover {
+    background-color: var(--darker-grey);
+}
+
+.nav_card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_card:hover .nav_card_name {
+    color: var(--white);
+}
+
+.nav_card svg {
+    height: 7.5vmin;
+    width: 7.5vmin;
+}
+
+/* react ri icons */
+.nav_card svg>g>path:nth-child(2) {
+    fill: var(--gray-6);
+}
+.nav_card:hover svg>g>path:nth-child(2) {
+    fill: var(--primary-color);
+}
+
+/* react fi icons */
+.nav_card svg>* {
+    fill: var(--gray-6);
+}
+.nav_card:hover svg>* {
+    fill: var(--primary-color);
+}
+.nav_card_container h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: #a6b6c4;
+    line-height: 3rem;
+    padding-bottom: 2rem;
+
+}
+.nav_card:hover h1{
+    color:var(--primary-color)
+
+}

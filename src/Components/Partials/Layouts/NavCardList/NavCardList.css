@@ -1,0 +1,32 @@
+.nav_card_list {
+    display           : grid;
+    grid-template-rows: repeat(2, 1fr);
+    width             : 90vw;
+    height            : 85vh;
+}
+
+.two_nav_cards_list,
+.three_nav_cards_list,
+.four_nav_cards_list {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.five_nav_cards_list,
+.six_nav_cards_list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.seven_nav_cards_list,
+.eight_nav_cards_list {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nine_nav_cards_list,
+.ten_nav_cards_list {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.eleven_nav_cards_list,
+.twelve_nav_cards_list {
+    grid-template-columns: repeat(6, 1fr);
+}

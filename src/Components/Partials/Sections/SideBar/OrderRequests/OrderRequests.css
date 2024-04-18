@@ -1,0 +1,16 @@
+.pending{
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 50%;
+    background-color: var(--bright-red);
+    color: var(--gray-1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pending h3{
+ font-size: 2rem;
+ font-weight: bold;
+}

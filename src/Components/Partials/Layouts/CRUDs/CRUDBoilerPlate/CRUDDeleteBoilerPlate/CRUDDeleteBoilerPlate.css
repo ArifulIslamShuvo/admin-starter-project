@@ -1,0 +1,20 @@
+.modal_delete_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 32vh;
+}
+.modal_delete_content p {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+.modal_delete_content .modal_group_buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    width: 100%;
+    padding: 0 6rem;
+}

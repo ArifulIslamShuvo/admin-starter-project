@@ -1,0 +1,11 @@
+.delete_btn:hover {
+  background-color: var(--bright-red) !important;
+}
+
+.delete_btn>svg>* {
+  stroke: var(--bright-red) !important;
+}
+
+.delete_btn:hover>svg>* {
+  stroke: var(--dark-red) !important;
+}

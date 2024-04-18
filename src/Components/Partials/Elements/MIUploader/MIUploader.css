@@ -1,0 +1,40 @@
+.mi_uploader {
+  width        : 100%;
+  max-width    : 29.6rem;
+  height       : 21.4rem;
+  border-radius: 1.2rem;
+  overflow     : hidden;
+  position     : relative;
+}
+
+.miu_input {
+  position: absolute;
+  top     : 0;
+  left    : 0;
+  width   : 0;
+}
+
+.miu_label {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  width          : 100%;
+  height         : 100%;
+  border         : 2px dashed var(--gray-3);
+  border-radius  : 1.2rem;
+  cursor         : pointer;
+}
+
+.miu_label img {
+  height: 3.2rem;
+  width : 3.2rem;
+}
+
+.miu_label span {
+  font-weight: 500;
+  font-size  : 2rem;
+  line-height: 2.8rem;
+  color      : var(--gray-1);
+  margin-top : 0.5rem;
+}

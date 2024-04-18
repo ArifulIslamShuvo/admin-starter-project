@@ -1,0 +1,12 @@
+a.forgot_pass, button.forgot_pass {
+    color: var(--gray-4);
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+a.forgot_pass:hover, button.forgot_pass:hover {
+    color: var(--primary-color);
+    font-weight: 600;
+}

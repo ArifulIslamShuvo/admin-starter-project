@@ -1,0 +1,24 @@
+.btn_addnew_wrapper {
+    display: flex;
+}
+
+.btn_add_new {
+    display    : flex;
+    align-items: center;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 25px;
+    margin-left: 3rem;
+    color: var(--secondary-color);
+}
+.btn_add_new:hover {
+    color: var(--white);
+}
+
+.btn_add_new>svg {
+    margin-right: 1vw;
+    flex        : 0 0 2vw;
+    width       : 2vw;
+    height       : 2vw;
+}

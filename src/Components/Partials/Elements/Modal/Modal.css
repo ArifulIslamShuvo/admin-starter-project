@@ -1,0 +1,39 @@
+.modal-backdrop {
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    width           : 100vw;
+    height          : 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    z-index         : 1040;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+.modal-content {
+    background-color: var(--gray-8);
+    border-radius   : 15px;
+    padding         : 3rem 4.2rem;
+    min-height      : 50vh;
+    width           : 100%;
+    max-width       : 34vw;
+}
+
+.modal-content.view {
+    max-width       : 50vw;
+}
+
+.modal-main {
+    padding-top       : 3rem;
+    max-height        : 70vh;
+    overflow-x        : hidden;
+    overflow-y        : auto;
+    -ms-overflow-style: none;
+    scrollbar-width   : none;
+}
+
+.modal-main::-webkit-scrollbar {
+    display: none;
+}
+

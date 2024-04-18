@@ -1,0 +1,72 @@
+.mi_perviewer {
+    width        : 100%;
+    max-width    : 29.6rem;
+    height       : 21.4rem;
+    border-radius: 1.2rem;
+    overflow     : hidden;
+    position     : relative;
+}
+
+.mi_perv_thumb {
+    width          : 100%;
+    height         : 100%;
+    object-fit     : cover;
+    object-position: center;
+}
+
+.mi_select_tags {
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 100%;
+    background: linear-gradient(0deg, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8));
+    opacity   : 0;
+    visibility: hidden;
+}
+
+/* .mi_perviewer:hover .mi_select_tags {
+    opacity   : 1;
+    visibility: visible;
+} */
+.mi_select_tags.show {
+    opacity   : 1;
+    visibility: visible;
+}
+
+.mi_close {
+    position: absolute;
+    top     : 1.2rem;
+    right   : 1.2rem;
+}
+
+.mi_select_box {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 100%;
+    height         : 100%;
+    padding        : 2.4rem;
+}
+
+.mi_form_select {
+    width              : 100%;
+    font-size          : 1.7rem;
+    line-height        : 2.4rem;
+    color              : var(--gray-2);
+    background-color   : transparent;
+    padding            : 2.4rem;
+    border             : 2px solid var(--gray-2);
+    border-radius      : 1rem;
+    -webkit-appearance : none;
+    -moz-appearance    : none;
+    appearance         : none;
+    background-repeat  : no-repeat;
+    background-position: right 0.75rem center;
+    /* background-image   : url('../../../../Assets/icon/fi_chevron-down\ \(1\).svg'); */
+    background-size    : 2rem;
+}
+
+.mi_form_select option {
+    background-color: var(--black);
+}

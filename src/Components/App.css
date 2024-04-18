@@ -1,0 +1,61 @@
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* root variables */
+:root {
+  --primary-color: #f9bd34;
+}
+
+/* body, html and root imports */
+*,
+body,
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size       : 1.6rem;
+  background-color: var(--black);
+  color           : var(--gray-3);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.grid_container {
+  display: grid;
+}
+
+.flex_container {
+  display: flex;
+}
+
+/* --------------------------------------------------------------- */
+
+main {
+  height : 90vh;
+  width  : 100vw;
+  display: flex;
+}
+
+.screen-container {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  width          : 92.5vw;
+  height         : 90vh;
+  padding: 0 2rem 0 4rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* btn group */
+.btn_group {
+  display: grid;
+  gap: 2.4rem;
+  justify-content: flex-end;
+}
+.btn_group.two {
+  grid-template-columns: auto auto;
+}

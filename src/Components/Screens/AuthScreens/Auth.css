@@ -1,0 +1,76 @@
+.page_logo {
+    text-align   : center;
+    margin-bottom: 3rem;
+}
+
+.screen-holder .form_wrapper {
+    width: 30rem;
+}
+.form_wrapper h3 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+a.forgot_pass,
+button.forgot_pass {
+    display       : block;
+    color         : var(--gray-6);
+    text-transform: uppercase;
+    text-align    : center;
+    margin-top    : 3rem;
+    transition    : all .3s ease-in-out;
+}
+
+a.forgot_pass:hover,
+button.forgot_pass:hover {
+    font-weight: 600;
+    color      : var(--primary-color);
+}
+
+.dha_box {
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : center;
+    margin-top     : 6rem;
+}
+
+.dha_box button {
+    width: initial !important;
+    text-transform: uppercase;
+}
+
+a.sign_up {
+    display       : inline-block;
+    color         : var(--black);
+    text-transform: uppercase;
+}
+
+.dha_box p {
+    color       : var(--gray-5);
+    margin-right: 1rem;
+}
+
+.recover_pass.two .input_group p {
+    color: var(--gray-6);
+}
+
+.recover_pass.two .input_group p span {
+    color: var(--black);
+}
+
+.auth_status {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    color: var(--gray-5);
+    margin-bottom: 2.4rem;
+}
+.auth_status span {
+    color: var(--black);
+}
+
+@media (max-width:575.78px) {
+    .auth_page .container {
+        padding: 0;
+    }
+}

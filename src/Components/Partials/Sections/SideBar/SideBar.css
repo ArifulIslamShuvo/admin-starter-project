@@ -1,0 +1,18 @@
+.small_sidebar {
+  width: 7.5vw; 
+  height: 90vh;
+  margin-top: -1px;
+  background-color: var(--gray-8);
+  border-right: 1.5px solid var(--primary-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+.small_sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.small_sidebar .container {
+    width: 100%;
+}

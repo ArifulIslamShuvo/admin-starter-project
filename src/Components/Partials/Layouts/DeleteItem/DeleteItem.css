@@ -1,0 +1,59 @@
+.delete_item {
+    padding: 5rem;
+  }
+  .delete_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .delete_content h1 {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .delete_content p {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1.5rem;
+  }
+  .btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2rem;
+  }
+  .delete_content button{
+      border-radius: 5px;
+      border: 1px solid #b92521;
+      font-family: Plus Jakarta Sans;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 1.2rem 4.6rem;
+  }
+  .delete_btn .cancel {
+      color: #b92521;
+  }
+  
+  .delete_btn .cancel:hover {
+    background-color: #1b1818;
+  }
+  
+  .delete_btn .delete {
+      color: #FFF;
+      background: #B92521;
+  }
+  .delete_btn .delete:hover{
+      border: 1px solid #b64844;
+      background-color: #b64844;
+  }

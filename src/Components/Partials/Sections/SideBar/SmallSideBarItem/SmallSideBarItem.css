@@ -1,0 +1,39 @@
+.small_sidebar_item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small_sidebar_item button {
+  width: 7.5vw;
+  height: 7.5vw;
+}
+
+.small_sidebar_item button:hover {
+  background-color: var(--primary-color);
+  border-radius   : .8vh;
+}
+
+.small_sidebar_item button svg {
+  width : 3.2vh;
+  height: 3.2vh;
+}
+.small_sidebar_item button svg> path {
+  fill:var(--primary-color);
+}
+.small_sidebar_item button:hover svg> path {
+  fill:var(--gray-8);
+}
+
+.small_sidebar_item button:hover svg > g > path:nth-child(2) {
+  fill:var(--gray-8);
+}
+
+.small_sidebar_item button:hover svg {
+  stroke: var(--primary-color);
+}
+
+.small_sidebar_item .active svg > g > path:nth-child(2) {
+  fill: var(--white);
+}

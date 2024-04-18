@@ -1,0 +1,40 @@
+/* switch button */
+/* .form-check-input:focus {
+    border-color: none;
+    outline     : 0;
+    box-shadow  : none;
+  }
+  
+  .form-check-input:checked {
+    border-color    : #3282b8;
+    background-color: #fff;
+  }
+  
+  .form-switch .form-check-input:focus {
+    border-color: none;
+  }
+  
+  .form-switch .form-check-input {
+    width                        : 3.5em;
+    height                       : 3rem;
+    border                       : 1px solid #999999;
+    border-radius                : 2rem;
+    background-position          : left center;
+    background-size              : contain;
+    background-repeat            : no-repeat;
+    transition                   : background-position .15s ease-in-out;
+    -webkit-appearance           : none;
+    -moz-appearance              : none;
+    appearance                   : none;
+  }
+  
+  .form-switch .form-check-input:checked {
+    border-color       : #3282b8;
+    background-position: right center;
+  } */
+
+
+
+  .ecommerce-switch {
+    margin-bottom: 2.4rem;
+  }

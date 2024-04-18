@@ -1,0 +1,66 @@
+.input_field_label {
+    display       : block;
+    font-weight   : 600;
+    font-size     : 1.6rem;
+    line-height   : 2rem;
+    color         : var(--gray-1);
+    text-transform: capitalize;
+    margin-bottom : 1.4rem;
+}
+
+.input_field {
+    font-weight     : 400;
+    font-size       : 1.4rem;
+    line-height     : 1.8rem;
+    color           : var(--gray-1);
+    padding         : 1.5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border          : 1px solid transparent;
+    border-radius   : 5px;
+    margin-bottom   : 2.4rem;
+    width           : 100%;
+}
+
+.input_field.big_height {
+    min-height: 16rem;
+} 
+
+.input_field:disabled {
+    color: var(--gray-4);
+}
+
+.input_field::placeholder {
+    color: var(--gray-4);
+}
+
+.input_field:not(:disabled):hover {
+    border-color: var(--gray-3);
+}
+
+.input_field:not(:disabled):focus-visible {
+    border-color: var(--gray-5);
+}
+
+select {
+    appearance         : none;
+    background-image   : url(../../../../Assets/select-down-arrow.svg);
+    background-size    : 2rem 2rem;
+    background-position: right 1.2rem center;
+    background-repeat  : no-repeat;
+}
+
+input[type='date'],
+input[type='time'] {
+    appearance: none;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='time']::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.logo_wrapper {
+    display        : flex;
+    justify-content: center;
+    margin-bottom  : 4rem;
+}

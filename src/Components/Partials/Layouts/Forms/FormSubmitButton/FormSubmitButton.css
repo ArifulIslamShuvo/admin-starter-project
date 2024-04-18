@@ -1,0 +1,67 @@
+.btn_wrapper {
+    text-align: right;
+}
+
+.btn_group .grid_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.cancel,
+.submit,
+.delete {
+    display       : inline-block;
+    font-weight   : 700;
+    font-size     : 1.5rem;
+    line-height   : 1.7rem;
+    text-align    : center;
+    text-transform: uppercase;
+    border-radius : 5px;
+    padding       : 1.5rem 4.8rem;
+}
+
+.cancel.w_100,
+.submit.w_100,
+.delete.w_100 {
+    width: 100%;
+}
+
+.cancel {
+    border: 1px solid var(--gray-6);
+    color: #fff;
+}
+
+.cancel:hover {
+    background-color: var(--gray-6);
+}
+
+.submit {
+    background-color: var(--primary-color);
+    color : var(--gray-8);
+}
+
+.submit:hover {
+    background: var(--gray-1);
+    /* color     : var(--primary-color); */
+}
+
+.delete {
+    background-color: var(--dark-red);
+    color           : var(--white);
+}
+
+.delete:hover {
+    background-color: var(--bright-red);
+}
+
+.btn_text.disabled {
+    background-color: var(--gray-4);
+    cursor: auto;
+}
+.modal_group_buttons .green_btn{
+     background-color: #049a04;
+}
+.modal_group_buttons .green_btn:hover{
+     background-color: #13c613;
+}
+

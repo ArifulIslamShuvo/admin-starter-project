@@ -1,0 +1,15 @@
+.dashboard_table th {
+    font-weight: 600;
+    font-size  : 2.2rem;
+    line-height: 2.8rem;
+    color      : var(--navy-blue);
+}
+
+table.dataTable thead th {
+    /* padding: 6.5rem 1rem 3.8rem; */
+    padding: 3.8rem 1rem;
+}
+
+table thead .sorting {
+    background: none !important;
+}

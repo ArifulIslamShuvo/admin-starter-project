@@ -1,0 +1,27 @@
+.modal-header {
+    display        : flex;
+    justify-content: space-between;
+    padding-bottom : 1rem;
+}
+
+.modal-header h1 {
+    color: var(--primary-color);
+}
+
+.close-button {
+    width : 3vh;
+    height: 3vh;
+}
+
+.close-button svg {
+    fill: var(--gray-4);
+}
+
+/* .close-button:hover svg {
+    fill: var(--white);
+}
+
+.close-button:hover {
+    background-color: var(--black);
+    color: var(--white);
+} */
